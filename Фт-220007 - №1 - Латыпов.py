@@ -6,6 +6,7 @@ summ = a + b
 raz = a - b
 mult = a * b
 avg = (a + b) / 2
+quo = round(a/b, 2)
 if (a > 0) and (b > 0):
     a = a
     b = b
@@ -60,3 +61,4 @@ print('Разность = ' + str(raz))
 print('Произведение  = ' + str(mult))
 print('Среднее арифметическое = ' + str(avg))
 print('Разность max и min = ' + str(maxn-minn))
+print('Частное = ' + str(quo))
